@@ -1,0 +1,5 @@
+String ""/ ''
+List []
+Tuple () => only read LIST
+Dictionary {key : value}
+	LIST has order, but DICT do not.
