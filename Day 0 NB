@@ -1,0 +1,13 @@
+Terminal Commands
+ls
+	list files and directories
+cd 
+	change directory
+mkdir 
+	create a new directory
+cp 
+	copy files or directories
+mv 
+	move (rename) files or folders
+rm 
+	remove files or folders
