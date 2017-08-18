@@ -1,0 +1,22 @@
+Slice syntax
+list [a:b]
+a closed/open range
+
+... = {...} ==> set & dictionary
+... = {} ==> an empty dictionary
+
+When the arguments are uncertain:
+*args: positional arguments ==> do not have keys
+**kwargs: keyword arguments ==> do have KEYS
+
+Anonymous functions --- lambda
+(lambda x, y, z: ...)(x=..., y=..., z=...)
+The same function as def
+
+Special functions
+filter, map, reduce ↓
+  print reduce(add1, range(1, 100))
+  print reduce(add1, range(1, 100), 20)
+  ## 4950 （注：1+2+...+99）
+  ## 4970 （注：1+2+...+99+20）
+
